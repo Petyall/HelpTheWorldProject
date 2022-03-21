@@ -1,0 +1,266 @@
+.knopka {
+    border: none;
+    font-size: 1rem;
+    padding: 18px 26px;
+    background: #fff;
+    color: #959595;
+    width: 250px;
+}
+
+.knopka:active {
+    background-image: linear-gradient(135deg, #25C8AB, #B634C5);
+    color: #F2F2F2;
+    padding: 16px 26px;
+    display: inline;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.progress {
+    width: 100%;
+    max-width: 100%;
+    height: 6px;
+    background: #E7E6EB;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg,#25C8AB,#B634C5 17%,#25C8AB 34%,#B634C5 51%,#25C8AB 68%,#B634C5 85%,#25C8AB);
+    background-size: 300% 100%;
+    animation: progress-animation 2s linear infinite;
+}
+
+@keyframes progress-animation {
+  0% {
+    background-position: 100% }
+  100% {
+    background-position: 0 }
+}
+
+.dlaprogress {
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.procent {
+    color: transparent; -webkit-background-clip: text; background-clip: text; background-image: linear-gradient(to right, #25C8AB, #B634C5);
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-weight: 500;
+}
+
+.summ {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.sobrano {
+    text-align: right;
+    margin: 0;
+    color: #3C4454;
+}
+
+.status {
+    margin: 0;
+    color: #3C4454;
+}
+
+.search {
+    color: #0B132A;
+    width: 675px;
+    height: 45px;
+    font-size: 1.125rem;
+    background: #fff;
+    float: left;
+    padding-left: 15px;
+    border-radius: 8px;
+    border-color: #E7E6EB;
+    border: 2.5px solid #E7E6EB;
+    outline: none;
+    margin-left: -15px;
+}
+
+.searchicon {
+    margin-left: -40px;
+    height: 25px;
+}
+
+.BigDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1101px) {
+    .dlaprogress {
+        margin-top: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .procent {
+        color: transparent; -webkit-background-clip: text; background-clip: text; background-image: linear-gradient(to right, #25C8AB, #B634C5);
+        font-size: 1.25rem;
+        padding: 0 auto;
+        font-weight: 500;
+    }
+    
+    .summ {
+        font-weight: 500;
+        font-size: 1.25rem;
+        padding: 0 auto;
+        text-align: left;
+    }
+    
+    .sobrano {
+        text-align: right;
+        margin: 0;
+        color: #3C4454;
+    }
+    
+    .status {
+        color: #3C4454;
+    }
+
+    .progress {
+        width: 90%;
+        max-width: 90%;
+        height: 8px;
+        background: #E7E6EB;
+        border-radius: 3px;
+        overflow: hidden;
+        text-align: center;
+        margin: 5%;
+    }
+    
+    .progress-bar {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg,#25C8AB,#B634C5 17%,#25C8AB 34%,#B634C5 51%,#25C8AB 68%,#B634C5 85%,#25C8AB);
+        background-size: 300% 100%;
+        animation: progress-animation 2s linear infinite;
+        text-align: center;
+    }
+
+    .left {
+        margin: 0;
+        text-align: left;
+    }
+
+    .search {
+        color: #0B132A;
+        width: 360px;
+        height: 45px;
+        font-size: 1.125rem;
+        background: #fff;
+        float: left;
+        padding-left: 15px;
+        border-radius: 8px;
+        border-color: #E7E6EB;
+        border: 2.5px solid #E7E6EB;
+        outline: none;
+    }
+    
+    .searchicon {
+        margin-left: -40px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 370px) {
+    .dlaprogress {
+        margin-top: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 5%;
+        margin: 5%;
+    }
+    
+    .procent {
+        color: transparent; -webkit-background-clip: text; background-clip: text; background-image: linear-gradient(to right, #25C8AB, #B634C5);
+        font-size: 1rem;
+        padding: 0 auto;
+        font-weight: 500;
+    }
+    
+    .summ {
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 0 auto;
+        text-align: left;
+    }
+    
+    .sobrano {
+        text-align: right;
+        margin: 0;
+        color: #3C4454;
+        font-size: 0.95rem;
+    }
+    
+    .status {
+        color: #3C4454;
+        font-size: 0.95rem;
+    }
+
+    .progress {
+        width: 90%;
+        max-width: 90%;
+        height: 8px;
+        background: #E7E6EB;
+        border-radius: 3px;
+        overflow: hidden;
+        text-align: center;
+        margin: 5%;
+    }
+    
+    .progress-bar {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg,#25C8AB,#B634C5 17%,#25C8AB 34%,#B634C5 51%,#25C8AB 68%,#B634C5 85%,#25C8AB);
+        background-size: 300% 100%;
+        animation: progress-animation 2s linear infinite;
+        text-align: center;
+    }
+
+    .left {
+        margin: 0;
+        text-align: left;
+    }
+
+    .search {
+        color: #0B132A;
+        width: 300px;
+        height: 45px;
+        font-size: 1.125rem;
+        background: #fff;
+        float: left;
+        padding-left: 15px;
+        border-radius: 8px;
+        border-color: #E7E6EB;
+        border: 2.5px solid #E7E6EB;
+        outline: none;
+        margin-bottom: 0px;
+    }
+    
+    .searchicon {
+        margin-left: -40px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,98 @@
+.bigdiv {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.promo {
+    width: 900px;
+    margin: 30px;
+    margin-right: 8.6%;
+    margin-left: 8.6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.text {
+    width: 555px;
+    margin-bottom: 5%;
+}
+
+.BT {
+    font-size: 2.25rem;
+    font-weight: 500
+}
+
+.ST {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+
+@media (max-width: 1101px) {
+    .bigdiv {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .promo {
+        width: 400px;
+        margin-right: 28.6%;
+        margin-left: 28.6%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 12%;
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .text {
+        order: 1;
+        width: 400px;
+    }
+}
+
+@media (max-width: 660px) {
+    .bigdiv {
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+
+    .promo {
+        width: 270px;
+        margin-right: 28.6%;
+        margin-left: 28.6%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 12%;
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .text {
+        order: 1;
+        width: 300px;
+    }
+
+    .img {
+        width: 80%;
+    }
+
+    .BT {
+        font-size: 1.7rem;
+        font-weight: 500
+    }
+}

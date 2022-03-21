@@ -1,0 +1,43 @@
+.NavBar {
+    margin: 30px;
+    margin-right: 8.6%;
+    margin-left: 8.6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.panel {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phone {
+    font-weight: 500;
+}
+
+.b-green:before{background:#499bea;background:-moz-linear-gradient(135deg,#25C8AB 0,#B634C5 100%);background:-webkit-gradient(left bottom,right top,color-stop(0,#25C8AB),color-stop(100%,#B634C5));background:-webkit-linear-gradient(135deg,#25C8AB 0,#B634C5 100%);background:-o-linear-gradient(135deg,#25C8AB 0,#B634C5 100%);background:-ms-linear-gradient(45deg,#25C8AB 0,#B634C5 100%);background:linear-gradient(135deg,#25C8AB 0,#B634C5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff',endColorstr='#fff',GradientType=1)}
+.button{color: transparent; -webkit-background-clip: text; background-clip: text; background-image: linear-gradient(to right, #25C8AB, #B634C5); display:inline-block;position:relative;border-radius:50px;text-decoration:none;padding: 13px;padding-left: 40px;padding-right: 40px;font-size:16;font-weight:500;transition:all .5s;-webkit-background-clip:text;}
+.button:hover{text-shadow:0 0 0 rgba(255,255,255,.75); color: #F9f9f9 }
+.button:hover:after{left:100%;top:100%;bottom:100%;right:100%; color:#F9f9f9}
+.button:before{ content:'';display:block;position:absolute;left:0;top:0;bottom:0;right:0;z-index:-1;border-radius:6px;transition:all .5s}
+.button:after{ content:'';display:block;position:absolute;left:2px;top:2px;bottom:2px;right:2px;z-index:-1;border-radius:6px;transition:all .5s;background:#fff}
+
+@media (max-width: 500px) {
+    .NavBar {
+        margin-right: 4.6%;
+        margin-left: 4.6%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
